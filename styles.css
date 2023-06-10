@@ -1,0 +1,263 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c5c9c9dc;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  #start {
+    margin-left: 47%;
+    margin-right: 45%;
+    
+  }
+  
+  #start {
+    display: inline-block;
+    background-color: #4caf50;
+    color: white;
+    padding: 15px 30px;
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #start:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+  }
+  
+  #start:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+  
+
+  h2,
+  h3 {
+      text-align: center;
+     
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  #question {
+    font-size: 25px;
+    font-family: "Times New Roman", serif;
+
+ 
+  }
+  
+  #survey-screen {
+    display: none;
+    text-align: center; 
+    size: 30%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #90e0f7;
+    width: 60%;
+    height: 60vh;
+    padding: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 10px;
+    margin-top: 7%;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+}
+
+
+#survey-screen button#prev-btn {
+    background-color: #555;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  #survey-screen button#prev-btn:hover {
+    background-color: #45a049;
+  }
+  
+  #survey-screen button#next-btn {
+    background-color:#555;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  #survey-screen button#next-btn:hover {
+    background-color: #45a049;
+  }
+  
+  #survey-screen button:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+  
+#question,
+#answers,
+button {
+  margin: 10px auto;
+}
+  
+#question-number {
+    font-size: 25px;
+    font-weight: bold;
+    color: #1a1515;
+    margin-bottom: 3%;
+    margin-top: 5%;
+
+  }
+  
+  #answers {
+    margin-top: 20px;
+  }
+
+  #answers {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+  
+  input[type="radio"],
+  input[type="text"] {
+    margin-right: 10px;
+    margin-left: 10px;
+
+  }
+  input[type="text"] {
+     font-size: 30px;
+
+  }
+  
+  input[type="radio"] {
+    width: 20px; /* Increase the width to your desired value */
+    height: 20px; /* Increase the height to your desired value */
+  }
+  
+  input[type="text"] {
+    width: 300px; /* Set the width to your desired value */
+    height: 40px; /* Set the height to your desired value */
+  }
+  
+  
+
+  #confirmation-screen {
+    text-align: center;
+    display: none;
+  }
+
+  #confirmation-screen h2{
+     margin-top: 15%;
+  }
+
+  #welcome-screen,
+#confirmation-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 110vh;
+
+}
+
+#welcome-screen h2,
+#confirmation-screen h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+#welcome-screen p,
+#confirmation-screen p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+#confirmation-screen button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+#confirmation-screen button:hover {
+  background-color: #45a049;
+}
+
+#confirmation-screen button:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.rating-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rating-container input[type="radio"] {
+  display: none;
+}
+
+.rating-container label {
+  cursor: pointer;
+  margin: 5px;
+}
+
+.rating-container label:before {
+  content: "\2605";
+  color: white;
+  font-size: 40px;
+  margin-right: 5px;
+  transition: color 0.1s ease;
+}
+
+.rating-container input[type="radio"]:checked ~ label:before {
+  color: yellow;
+  animation: glowing 1s infinite;
+
+}
+
+.rating-container input[type="radio"]:focus + label:before,
+.rating-container label:hover:before {
+  color: yellow;
+  text-shadow: 0 0 5px yellow;
+}
+
