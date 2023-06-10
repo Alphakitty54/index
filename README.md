@@ -1,12 +1,14 @@
 # index
 
-![image](https://github.com/Alphakitty54/index/assets/79658668/a6fa7723-41d9-4228-85b8-2d2d1b167543)
+WELCOME PAGE
 
+![image](https://github.com/Alphakitty54/index/assets/79658668/8351e385-2f00-4f25-bbb9-95c9b5e42bac)
 
-![image](https://github.com/Alphakitty54/index/assets/79658668/74a08fca-4c75-483e-8c2b-9f6db551d250)
+SURVEY SCREEN
 
+![image](https://github.com/Alphakitty54/index/assets/79658668/38d498e6-8513-4d0f-abbb-d55da8e7146b)
 
+CONFIRMATION SCREEN
 
-
-![image](https://github.com/Alphakitty54/index/assets/79658668/b183837c-90d9-4215-aeaf-6dec7e7acb21)
+![image](https://github.com/Alphakitty54/index/assets/79658668/2ae047df-89dd-4f61-a76c-c0ad37ab824a)
 
