@@ -34,18 +34,18 @@ const questions = [
     { id: 5, text: "What could we do to improve our service?", type: "text" }
   ];
   
-  // Current survey state
+ 
   let currentQuestion = 0;
   let surveyData = [];
   
-  // Initialize survey
+  
   function startSurvey() {
     document.getElementById("welcome-screen").style.display = "none";
     document.getElementById("survey-screen").style.display = "block";
     showQuestion(currentQuestion);
   }
   
-  // Show current question
+
   function showQuestion(questionIndex) {
     const question = questions[questionIndex];
     document.getElementById("question-number").textContent = `${
